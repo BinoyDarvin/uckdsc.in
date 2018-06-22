@@ -83,7 +83,7 @@ function theRevealer() {
             if (value === 0) {
                 circle.setText('');
             } else {
-                circle.setText(parseInt(value / 20));
+                circle.setText(parseInt(value / 6));
 
             }
 
@@ -134,7 +134,7 @@ function theRevealer() {
             if (value === 0) {
                 circle.setText('');
             } else {
-                circle.setText(parseInt(value / 5));
+                circle.setText(parseInt(value / 1.5));
 
             }
 
@@ -183,7 +183,7 @@ function theRevealer() {
             if (value === 0) {
                 circle.setText('');
             } else {
-                circle.setText(parseInt(value / 10));
+                circle.setText(parseInt(value / 4));
             }
 
 
