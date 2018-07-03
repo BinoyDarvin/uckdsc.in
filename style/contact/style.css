@@ -255,17 +255,43 @@ header p {
 }
 
 
-/*-----------------
+/*----------------
 SECTION ONE STYLES
-------------------*/
+-----------------*/
 .section-one{
-    text-align: center;
-    padding-top: 40px;
+    width: 100%;
+    height: 500px;
 }
 
 
 
-.section-one figure{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------
+SECTION TWO STYLES
+------------------*/
+.section-two{
+    text-align: center;
+    padding-top: 40px;
+    background: #eee;
+}
+
+
+
+.section-two figure{
     background: url(../../src/img/contact/mail/letter.png) no-repeat;
     background-size: 100px;
     width: 100%;
@@ -279,18 +305,19 @@ SECTION ONE STYLES
 .contact-form{
     width: 500px;
     margin: auto;
-    border: 1px solid red;
+    
     
 }
 
 
-.contact-form input[type=email],.contact-form input[type=text]{
+.contact-form .conflict{
     width: 220px;
     padding:7px;
+    
 }
 
 .contact-form textarea{
-    width: 350px;
+    width: 444px;
     height: 150px;
     resize: none;
     padding:7px;
@@ -298,4 +325,108 @@ SECTION ONE STYLES
 
 .contact-form input[type=button]{
    cursor: pointer;
+}
+
+.contact-form .input-subject{
+    width: 444px;
+    padding: 7px;
+
+}
+/*pod*/
+.pods {
+    width: 550px;
+    box-shadow: 0 9px 20px 0 rgba(153, 170, 181, .1);
+    background-color: #fff;
+    margin: auto;
+}
+.pods h3{
+    margin: 26px auto 21px auto;
+}
+
+
+
+
+/*---------------------
+footer styles
+-----------------------*/
+
+footer {
+
+    background: #163172;
+    color: white;
+}
+
+footer .row-1 {
+    height: 100%;
+    padding-top: 40px;
+
+}
+
+footer .row-1 p {
+    line-height: 22px;
+    color: #0275d8;
+
+
+}
+
+
+.footer-first-sec img {
+    width: 200px;
+    margin-left: 13px;
+}
+
+.footer-first-sec p {
+    padding: 7px 13px;
+    text-align: left;
+}
+
+/*social icons*/
+
+.social-icon-footer-container {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    margin-top: -45px;
+    margin-left: 13px;
+
+
+}
+
+.social-icon-footer-container a {
+    color: white;
+}
+
+.social-icon-footer-container li {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.footer-heads ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-heads ul {
+    padding: 0;
+}
+
+
+footer hr {
+    background-color: #eee;
+}
+
+.last-text {
+    margin-top: -15px;
+    padding: 10px;
+}
+
+.last-text .dev {
+    text-align: left;
+}
+
+.last-text .dsc {
+    text-align: right;
 }
