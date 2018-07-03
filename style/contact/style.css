@@ -1,0 +1,301 @@
+/*------------------
+global styles
+-------------------*/
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #4f545c;
+    background: white;
+}
+
+p {
+    color: #737f8d;
+    line-height: 30px;
+}
+
+h2 {
+    color: #4f545c;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #4f545c;
+}
+
+.section-heads {
+    width: 100%;
+    text-align: center;
+    padding: 0px 25%;
+}
+
+.casual-button {
+    background: #1E56A0;
+    padding: 10px 30px;
+    border-radius: 6px;
+    color: white;
+    vertical-align: middle;
+    transition: 250ms ease-in;
+    border: 2px solid #1E56A0;
+    text-align: center;
+    display: block;
+    width: 160px;
+    margin: auto;
+}
+
+.casual-button:hover {
+    color: #1E56A0;
+    text-decoration: none;
+    background: transparent;
+    
+}
+
+
+
+
+/*importing fonts*/
+
+@font-face {
+    font-family: "social-font-icon";
+    src: url(../../assets/fonts/social-font-icon.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*navabr*/
+
+navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar {
+    font-size: 13px;
+    height: 55px;
+}
+
+.navbar a,
+.navbar {
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #eee;
+}
+
+.nav-item {
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+/*login button*/
+
+.navbar .nav-item .login-button {
+    color: #eee;
+    border: 1.5px solid;
+    width: 80px;
+    font-weight: bold;
+    border-radius: 70px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.navbar .nav-item .login-button:hover {
+    color: #fff;
+}
+
+/*drop down*/
+
+.dropdown-menu {
+    background-color: #f6f6f6;
+}
+
+
+.navbar .dropdown-menu a {
+    color: #535559;
+    font-size: 13px;
+}
+
+.navbar .dropdown-menu a:hover {
+    color: initial;
+    background-color: #eee;
+}
+
+.navbar .social-icon {
+    font-size: 35px;
+    margin-top: -13px;
+}
+
+.navbar .social-icon-bar {
+    font-size: 24px;
+    padding: 12px;
+    margin-top: 4px;
+}
+
+
+header .navbar-brand img {
+    width: 140px;
+}
+
+header .navbar {
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/*--------------
+HEADER STYLES
+---------------*/
+header{
+    background: url(../../src/img/contact/hero/contact.svg) no-repeat;
+    width: 100%;
+    height: 638px;
+    background-size: cover;
+}
+
+/*header text*/
+
+.header-text {
+    color: white;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+header h1 {
+    line-height: 50px;
+    font-size: 45px;
+    margin-top: -0px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    
+
+}
+
+header p {
+    line-height: 30px;
+    font-size: 17px;
+    margin-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    color: #ddd;
+}
+
+.code-monster {
+
+    text-align: center;
+
+}
+
+.code-monster-pic {
+    padding-top: 40px;
+    max-width: 100%;
+    height: auto
+}
+
+.desc-background {
+    width: 100%;
+    height: 240px;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.resp-text-other {
+    margin: 0em;
+    font-size: 2vw;
+}
+
+.resp-text-h2 {
+    font-size: 2vw;
+    margin-top: 10px;
+}
+
+.resp-text-h1 {
+    font-size: 4vw;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .resp-text-h1 {
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+    .resp-text-h2 {
+        margin-top: 10px;
+        font-size: .7em;
+        line-height: 15px;
+    }
+    .resp-text-other {
+        font-size: .7em;
+        line-height: 15px;
+    }
+
+}
+
+
+/*-----------------
+SECTION ONE STYLES
+------------------*/
+.section-one{
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+.section-one figure{
+    background: url(../../src/img/contact/mail/letter.png) no-repeat;
+    background-size: 100px;
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    margin: 18px 0 18px 0;
+}
+
+
+/*form style*/
+.contact-form{
+    width: 500px;
+    margin: auto;
+    border: 1px solid red;
+    
+}
+
+
+.contact-form input[type=email],.contact-form input[type=text]{
+    width: 220px;
+    padding:7px;
+}
+
+.contact-form textarea{
+    width: 350px;
+    height: 150px;
+    resize: none;
+    padding:7px;
+}
+
+.contact-form input[type=button]{
+   cursor: pointer;
+}
