@@ -281,13 +281,22 @@ SECTION ONE STYLES
 }
 
 .contact-pods{
-    border: 1px solid red;
+   
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
 }
 .contact-pods img{
     width: 70px;
+    
 }
 
-.contact-pods 
+.con-pod{
+    width: 200px;
+    height: 150px;
+    
+}
 
 
 
