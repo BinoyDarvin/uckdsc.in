@@ -50,7 +50,7 @@ h3 {
     color: #1E56A0;
     text-decoration: none;
     background: transparent;
-    
+
 }
 
 
@@ -168,7 +168,8 @@ header .navbar {
 /*--------------
 HEADER STYLES
 ---------------*/
-header{
+
+header {
     background: url(../../src/img/contact/hero/contact.svg) no-repeat;
     width: 100%;
     height: 638px;
@@ -189,7 +190,7 @@ header h1 {
     margin-top: -0px;
     font-weight: bolder;
     font-family: sans-serif;
-    
+
 
 }
 
@@ -258,18 +259,35 @@ header p {
 /*----------------
 SECTION ONE STYLES
 -----------------*/
-.section-one{
+
+.section-one {
     width: 100%;
     height: 500px;
 }
 
+.map-frame {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+}
 
+.no-padding{
+    padding: 0;
+}
 
+.quick-contact{
+    margin: 25px auto 12px auto;
+}
 
+.contact-pods{
+    border: 1px solid red;
+}
+.contact-pods img{
+    width: 70px;
+}
 
-
-
-
+.contact-pods 
 
 
 
@@ -283,15 +301,17 @@ SECTION ONE STYLES
 /*-----------------
 SECTION TWO STYLES
 ------------------*/
-.section-two{
+
+.section-two {
     text-align: center;
     padding-top: 40px;
-    background: #eee;
+    height: 800px;
+    background: url(../../src/img/icon/stars/stars.gif);
 }
 
 
 
-.section-two figure{
+.section-two figure {
     background: url(../../src/img/contact/mail/letter.png) no-repeat;
     background-size: 100px;
     width: 100%;
@@ -302,44 +322,48 @@ SECTION TWO STYLES
 
 
 /*form style*/
-.contact-form{
+
+.contact-form {
     width: 500px;
     margin: auto;
-    
-    
+
+
 }
 
 
-.contact-form .conflict{
+.contact-form .conflict {
     width: 220px;
-    padding:7px;
-    
+    padding: 7px;
+
 }
 
-.contact-form textarea{
+.contact-form textarea {
     width: 444px;
     height: 150px;
     resize: none;
-    padding:7px;
+    padding: 7px;
 }
 
-.contact-form input[type=button]{
-   cursor: pointer;
+.contact-form input[type=button] {
+    cursor: pointer;
 }
 
-.contact-form .input-subject{
+.contact-form .input-subject {
     width: 444px;
     padding: 7px;
 
 }
+
 /*pod*/
+
 .pods {
     width: 550px;
     box-shadow: 0 9px 20px 0 rgba(153, 170, 181, .1);
     background-color: #fff;
     margin: auto;
 }
-.pods h3{
+
+.pods h3 {
     margin: 26px auto 21px auto;
 }
 
